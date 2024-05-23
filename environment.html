@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
+<style>
+  body,html {
+  height: 100%;
+  color: #777;
+  
+}
+.bg-1{
+  background-image: url('https://i.pinimg.com/236x/8d/33/99/8d33999d053dfe16f1f4b72a8e82a3a3.jpg');
+  min-height:100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.bgimg{
+        background-image:url('https://i.gifer.com/origin/22/22c926ace0589d778f62cc84087172ea_w200.gif');
+       min-height:80%;
+      opacity:0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+</style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm w3-serif w3-small w3-top"  style="background:rgb(205, 243, 205,0.9);color:indigo">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img width="40px" height="40px" class="w3-circle w3-hide-small w3-animate-opacity w3-hover-opacity" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL79ZsGiIP-s31rg48jMgo8cBsDJTRPpCPngrdatw&s" alt=""></a> 
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile" href="#"><i class="fa fa-home"></i> HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile" href="environment1.html"><i class="fa fa-user"></i> ABOUT</a>
+              </li>
+             <!---- <li class="nav-item">
+                <a class="nav-link w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile" href="#"><i class="fa fa-address-book"></i> CONTACT</a>
+              </li>  -->
+              <li class="nav-item dropdown">
+                <a class="nav-link  w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><i class="fa fa-address-book"></i> POLLUTIONS</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="air.html">Pollution</a></li>
+                  <li><a class="dropdown-item" href="sign.html">SignIn</a></li>
+                  <li><a class="dropdown-item" href="login.html">LogIn</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile" href="#"><i class="fa fa-th"></i> FOOTER</a>
+              </li>    
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <div class="input-group w3-serif w3-small">
+                    <input type="text" class="form-control w3-hover-border-amber" placeholder="Your Email">
+                    <span class="input-group-text w3-hover-text-gray" style="background-color: rgb(205, 243, 205,0.9);"><i class="fa fa-search"></i></span>
+                  </div>
+                </form>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+
+
+<center>
+      <div id="carouselExampleIndicators" class="carousel slide container" style="margin-top:80px" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img  src="https://i.pinimg.com/originals/72/be/0a/72be0aa5e8ff44ea6d07225d28fc654c.png" class="w3-hover-opacity w-100 w-block w3-round-large w3-border-dark-gray"></div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/564x/7a/7d/f4/7a7df49d0df6abb011f20a55a33b5926.jpg" class="w3-hover-opacity w-100 w-block  w3-round-large w3-border-dark-gray"> 
+           </div>
+           <div class="carousel-item">
+            <img src="https://i.pinimg.com/564x/40/55/01/4055019a79aa7cecdb183a6ec5b41ee6.jpg" class="w3-hover-opacity w-100 w-block  w3-round-large w3-border-blue-grey"> 
+           </div>
+         
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </center>
+
+
+      <!---making cards-->
+<div class="contianer w3-center w3-serif mt-2">
+<h1 class="w3-serif mt-4">Welcome To Green Fair</h1>
+<h6 class="w3-serif w3-small">Making the earth clean will make a goo generations in fea
+  ture</h6>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 text-center">
+      <div class="card p-2 w3-card-2  w3-hover-border-green">
+    <img width="100%" height="auto" class="w3-animate-opacity w3-hover-opacity" src="https://cdn-icons-png.flaticon.com/512/5541/5541580.png" alt="">
+       <div class="card-body">
+  <h6 class="w3-center w3-serif">Ecosystem</h6>
+  <h6 class="w3-center w3-serif w3-small">i Ecosystem icon in Flat style. Available in SVG, PNG, ICO, ...</h6>
+  <button class="btn btn-outline-dark p-2 w3-small w3-sans-serif">ClickHere</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 text-center">
+  <div class="card p-2 w3-card-2  w3-hover-border-green">
+<img width="100%" height="auto" class="w3-animate-opacity w3-hover-opacity" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF2OxkEjMW51guxl5CwYnk6d9zPsjKsvVJfQ&usqp=CAU" alt="">
+   <div class="card-body">
+<h6 class="w3-center w3-serif">WaterRefinig</h6>
+<h6 class="w3-center w3-serif w3-small">i Ecosystem icon in Flat style. Available in SVG, PNG, ICO, ...</h6>
+<button class="btn btn-outline-dark p-2 w3-small w3-sans-serif">ClickHere</button>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3 text-center">
+  <div class="card p-2 w3-card-2  w3-hover-border-green">
+<img width="100%" height="auto" class="w3-animate-opacity w3-hover-opacity"src="https://img.freepik.com/premium-vector/recycle-icon-symbol-vector-illustration_77417-300.jpg" alt="">
+   <div class="card-body">
+<h6 class="w3-center w3-serif">Recycling</h6>
+<h6 class="w3-center w3-serif w3-small">i Ecosystem icon in Flat style. Available in SVG, PNG, ICO, ...</h6>
+<button class="btn btn-outline-dark p-2 w3-small w3-sans-serif">ClickHere</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 text-center">
+  <div class="card p-2 w3-card-2  w3-hover-border-green">
+<img width="100%" height="auto" class="w3-animate-opacity w3-hover-opacity" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvB5PgV71EiGZMLjir_h_m04AEKzwjKXeXXA&usqp=CAU" alt="">
+   <div class="card-body">
+<h6 class="w3-center w3-serif">SolarSystem</h6>
+<h6 class="w3-center w3-serif w3-small">i Ecosystem icon in Flat style. Available in SVG, PNG, ICO, ...</h6>
+<button class="btn btn-outline-dark p-2 w3-small w3-sans-serif">ClickHere</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<!---making the voulntier vouchers-->
+
+<div class="container border border-dark mt-3 rounded-5">
+  <div class="row">
+    <div class="col-md-12">
+  <div class="w3-display-conatiner text-center text-black">
+      <h2 class="text-uppercase w3-center w3-dispaly-middle  w3-serif p-3" style="word-spacing:3px;letter-spacing:2px;color:green" ><span style="color:green"> Becomae</span> A <span style="color:green">voulnteer</span></h2>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-9">
+    <h6 class="text-center text-capitalize  w3-serif p-2 mb-5" style="">by becominig the voulnteer of our company we will giv ethe gift vouchers for saving of the planent earth</h6>
+  </div>
+  <div class="col-md-3 text-center">
+<button class="btn btn-outline-success text-capitalize mt-3 p-2 rounded-3 me-3 w3-serif" style="letter-spacing:2px">join us</button>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<div class="container bg-light card w3-card-4 text-center mt-3 w3-hover-border-green" style="font-family:georgia">
+  <h2 class="w3-serif">OUR WORK</h2>
+  <h6 class="w3-serif w3 center w3-small text-success text-capitalize">we work our level best for controlling the cutting the trees</h6>
+<div class="row">
+  <div class="col-md-3">
+    <img width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity mt-2" src="https://i.pinimg.com/236x/d6/a8/65/d6a8657ee44d102290ada11892d06fcd.jpg" alt="">
+    <div class="col-md-12">
+      <img width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2" src="https://i.pinimg.com/236x/b2/8d/66/b28d66b05e1cc4866d259a5b61b79054.jpg" alt="">
+    </div>
+  </div>
+  <div class="col-md-3">
+    <img width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2" src="https://i.pinimg.com/236x/d7/07/25/d7072556e6e604c98162415d925f2e5a.jpg" alt="">
+    <div class="col-md-12">
+      <img width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2" src="https://i.pinimg.com/236x/e9/08/5d/e9085d392539aad3c26bd48240e46bbf.jpg" alt="">
+    </div>
+    
+    <div class="col-md-12">
+      <img width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2" src="https://i.pinimg.com/236x/c4/7e/d9/c47ed95e82d8ae85f29cbb583e6c5133.jpg" alt="">
+    </div>
+    
+  </div>
+  <div class="col-md-3">
+    <img width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2" src="https://i.pinimg.com/236x/59/40/59/59405996fc45215a5a254e883724fc32.jpg" alt="">
+ <div class="row">
+  <div class="col-mid-12">
+    <img  width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2"  src="https://i.pinimg.com/564x/0d/b5/87/0db587ecc36bdaf8bd41f94d68dd4d5b.jpg" alt="">
+  </div>
+  <div class="col-mid-12">
+    <img  width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2"  src="https://i.pinimg.com/236x/22/4d/a3/224da3167882ea095989a5ec7db0b12a.jpg" alt="">
+  </div>
+  <div class="col-mid-12">
+    <img  width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2"  src="https://i.pinimg.com/236x/ca/b0/b8/cab0b814393a6eafb38db886b93f3292.jpg" alt="">
+  </div>
+ </div>
+  </div>
+  <div class="col-md-3">
+    <img width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2" src="https://i.pinimg.com/236x/2d/a1/2b/2da12b5bbfb29c46abf4683784710c73.jpg" alt="">
+    <div class="row">
+      <div class="col-mid-12">
+        <img  width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2"  src="https://i.pinimg.com/236x/e4/47/6c/e4476c0d5314dac9e6ec1df0188a1691.jpg" alt="">
+      </div>
+      <div class="col-mid-12">
+        <img  width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2"  src="https://i.pinimg.com/236x/94/67/4e/94674ea9ccc57c41ff920839218c3d8b.jpg" alt="">
+      </div>
+      <div class="col-mid-12">
+        <img  width="100%" height="auto" class="border w3-hover-border-green w3-round-large w3-hover-opacity  mt-2"  src="https://i.pinimg.com/236x/17/43/56/17435636b63c3065be10a4cabb3a7563.jpg" alt="">
+      </div>
+     </div>
+  </div>
+
+</div>
+</div>
+
+<!--creating the our achievemnts pages-->
+<div class="w3-display-container w3-text-white w3-hover-border-green bgimg  w3-round-large container w3-card w3-card-4 mt-4 p-2 w3-hover-opacity-off" style="word-spacing:2px;letter-spacing:2px">
+   <div class="w3-display-middle w3-container row">
+    <div class="col-md-12  w3-round-large w3-border w3-border-green text-center" style="background:rgb(248, 242, 242,0.1)">
+      <h2 class="text-uppercase text-dark" style=" font-family:Lobster, Sans-serif;">
+        save the plant!</h2>
+        <h2 class="text-uppercase text-dark" style=" font-family:Lobster, Sans-serif;">
+         save the earth
+      </h2>
+      <button class="btn btn-success w3-serif p-2 mb-3 " style="letter-spacing:2px">ClickHere</button>
+      </div>
+   </div>
+  </div>
+  
+<!--latest works-->
+<div class="container w3-card w3-card-4 mt-3">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <img class="mt-3 w3-round-large w3-border w3-hover-border-green" style="width:100%;height:auto" src="https://static.businessworld.in/article/article_extra_large_image/1465365544_C37rJ8_shutterstock_281995004.jpg">
+  <h3 class="w3-serif w3-medium w3-center w3-text-black text-capitalize text-success">one tree is to thousand hopes</h3>
+  <p class="w3-serif w3-center text-dark trrxt-center w3-small" style="text-align:justify">if we plant a tree it is equalent to the thousands hopes in this running world it will help you in all the ways what you think 
+    that will chage your life 
+  </p>
+  <button class="btn btn-outline-success p-2 w3-round-large w3-serif mb-3" style="letter-spacing:2px">
+    KnowMore
+  </button>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <h3 class="w3-serif w3-medium w3-center w3-text-black text-capitalize text-success">one tree is to thousand hopes</h3>
+  <p class="w3-serif w3-center text-dark trrxt-center w3-small" style="text-align:justify">if we plant a tree it is equalent to the thousands hopes in this running world it will help you in all the ways what you think 
+    that will chage your life Find Good Environment stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection.
+
+  </p>
+  <button class="btn btn-outline-success p-2 w3-round-large w3-serif" style="letter-spacing:2px">
+    KnowMore
+  </button>
+  <img class="mt-3 w3-round-large w3-border w3-hover-border-green" style="width:100%;height:auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQemCr-MkYNqPNS3XDEyuv5FP-AhEsJe1XmsvLKQBz1kpxQbGbWSz3_X1oj834ghlxVe5A&usqp=CAU">
+    </div>
+    
+  </div>
+</div>
+
+
+<!--making the testinomials-->
+
+<div class="container p-3 border border-black w3-round-large w3-card w3-card-4 mt-4" style="background:rgb(240, 224, 224,0.1)">
+   <h2 class="w3-serif text-dark text-center">Testinomials</h2>
+<div class="row m-2 justify-content-center ">
+  <div class="col-md-5 w3-black p-3 w3-border w3-hover-border-green w3-round-large">
+    <img style="width:100px;height:100px;border:2px solid white;border-radius:50%" src="https://img.freepik.com/free-photo/cheerful-young-caucasian-businessman_171337-727.jpg" alt="">
+<h6 class="w3-serif w3-text-green" style="letter-spacing:2px">JHON</h6>
+<p class="w3-small text-dark  text-white w3-serif">"Search from 3661910 Businessman stock photos, pictures and royalty-free images from iStock. Find high-quality stock photos that you won't find anywhere else."</p>
+
+<div class="row w3-small text-center">
+  <div class="col-md-11 ">
+    
+    <p class="">&nbsp&nbsp&nbsp&nbsp&nbsp TEXT TO:<a href="" class="text-success">@john123@gmail.com</a></p>
+        
+  </div>
+  </div>
+</div>
+ 
+  &nbsp&nbsp&nbsp
+  <div class="col-md-5 w3-black p-3 w3-border w3-hover-border-green w3-round-large">
+    <img style="width:100px;height:100px;border:2px solid white;border-radius:50%" src="https://media.gettyimages.com/id/1277533180/photo/young-indian-businesswoman-using-digital-tablet-in-office.jpg?s=612x612&w=gi&k=20&c=RFEhaYUCcRCOBDXpXm90yVpIt64_bsOV-AO5MDLnT5M=" alt="">
+<h6 class="w3-serif w3-text-green" style="letter-spacing:2px">SIMRAN</h6>
+<p class="w3-small text-white  w3-serif">"Search from 3661910 Businessman stock photos, pictures and royalty-free images from iStock. Find high-quality stock photos that you won't find anywhere else."</p>
+<div class="row w3-small text-center">
+  <div class="col-md-11 ">
+    
+    <p class=""> TEXT TO:<a href="" class="text-success">@simran123@gmail.com</a></p>
+        
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<!---creating the -->
+<div class="w3-row-padding w3-card-4 mt-5 w3-center">
+  <h1 class="w3-center w3-serif w3-text-black mb-3">POLLUTIONS</h1>
+  <div class="w3-third w3-card-4 w3-padding w3-animate-zoom">
+    <img width="100%" height="auto" class="img-fluid w3-round-large w3-border w3-border-green w3-hover-border-sand" src="https://www.worldmigratorybirdday.org/2007/images/stories/wmbd/still_picture_goose_with_fr.jpg">
+      <h2 class="w3-serif w3-medium w3-text-green text-capitalize ">Climate changing and migrating birds</h2>  
+      <p class="w3-text-black w3-small">One of the major effects of climate change is the loss of habitats.  disappear due to increasing n.</p>
+      <a href="https://www.google.com/search?q=climate+change+affecting+bird+migration&oq=climate+changing+affecting+birds&aqs=chrome.2.69i57j0i13i512j0i22i30l2j0i15i22i30j0i22i30j0i10i22i30j0i22i30j0i390i650l2.16992j0j7&sourceid=chrome&ie=UTF-8" class="btn-link w3-text-green text-capitalize w3-serif ">read more</a>
+     
+  </div>
+  <div class="w3-third w3-card-4  w3-padding w3-animate-zoom">
+    <img width="100%" height="auto" class="img-fluid w3-round-large w3-border w3-border-green w3-hover-border-sand" src="data:image/jpeg;base64,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">
+    <h2 class="w3-serif w3-medium w3-text-green text-capitalize ">controlling the indoor pollution</h2>  
+    <p class="w3-text-black w3-small">One of the major effects of climate change is the loss of habitats.  disappear due to increasing n.</p>
+    <a href="https://www.google.com/search?q=climate+change+affecting+bird+migration&oq=climate+changing+affecting+birds&aqs=chrome.2.69i57j0i13i512j0i22i30l2j0i15i22i30j0i22i30j0i10i22i30j0i22i30j0i390i650l2.16992j0j7&sourceid=chrome&ie=UTF-8" class="btn-link w3-text-green text-capitalize w3-serif ">read more</a>
+   
+  </div>
+  <div class="w3-third w3-card-4  w3-padding w3-animate-zoom">
+    <img width="100%" height="auto" class="img-fluid w3-round-large w3-border w3-border-green w3-hover-border-sand" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpgFNDcK8J5md0p_wWodJECoUspCpxbH0rDF3FEaWzF-PC-J27anZEZc0gSyAedgG3ZDA&usqp=CAU">
+    <h2 class="w3-serif w3-medium w3-text-green text-capitalize mt-2">animals are migrating pollution</h2>  
+    <p class="w3-text-black w3-small">One of the major effects of climate change is the loss of habitat change is the loss of habitat.</p>
+    <a href="https://www.google.com/search?q=climate+change+affecting+bird+migration&oq=climate+changing+affecting+birds&aqs=chrome.2.69i57j0i13i512j0i22i30l2j0i15i22i30j0i22i30j0i10i22i30j0i22i30j0i390i650l2.16992j0j7&sourceid=chrome&ie=UTF-8" class="btn-link w3-text-green text-capitalize w3-serif ">read more</a>
+   
+  </div>
+</div>
+
+<div class="container-fluid mt-5 w3-card w3-card-4 w3-padding">
+  <div class="bg-1">
+<div class="w3-row-padding">
+  <div class="w3-twothird w3-padding">
+    <h1 class="w3-serif w3-margin-left text-capitalize w3-text-white w3-center">
+      buy your word process
+    </h1>
+  </div>
+  <div class="w3-third w3-padding w3-center mt-3">
+    <button class="w3-serif btn btn-success text-uppercase w3-hover-border-green" style="letter-spacing:2px">
+purchase
+    </button>
+  </div>
+</div>
+  </div>
+  </div>
+  
+</div>
+
+<div class="container card mt-3">
+<div class="card-body w3-row-paadding  w3-padding-32">
+  <div class="w3-col m2 w3-center mt-2">
+    <img width="30%" height="auto" src="https://images.genius.com/f45d208e91567542c9defa0fe6313144.300x300x1.png" alt=""><i class="w3-serif w3-text-black" style="letter-spacing: 2px;">audiojungle</i>
+  </div>
+
+  <div class="w3-col m2 w3-center mt-2">
+    <img width="30%" height="auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7tQXnYX_1x0SZTpt5ILb66mzzYeegCY5gHlg-AgPu1A&s" alt=""><i class="w3-serif w3-text-black" style="letter-spacing: 2px;">codecayoun</i>
+  </div>
+
+  <div class="w3-col m2 w3-center mt-2">
+    <img width="30%" height="auto" src="https://img.freepik.com/free-icon/graphicriver-logo-envato_318-40947.jpg" alt=""><i class="w3-serif w3-text-black" style="letter-spacing: 2px;">graphicrier</i>
+  </div>
+
+  <div class="w3-col m2 w3-center mt-2">
+    <img width="30%" height="auto" src="https://play-lh.googleusercontent.com/6pTX4OILXTxazqad66oiVfG4x2KpYn4kIPgdzOe173tT0oHr2ThwpBhMyzzzxWq_r6M" alt=""><i class="w3-serif w3-text-black" style="letter-spacing: 2px;">powerpointer</i>
+  </div>
+ 
+  <div class="w3-col m2 w3-center mt-2">
+    <img width="30%" height="auto" src="https://images.genius.com/f45d208e91567542c9defa0fe6313144.300x300x1.png" alt=""><i class="w3-serif w3-text-black" style="letter-spacing: 2px;">audiojungle</i>
+  </div>
+
+  <div class="w3-col m2 w3-center mt-2">
+    <img width="30%" height="auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7tQXnYX_1x0SZTpt5ILb66mzzYeegCY5gHlg-AgPu1A&s" alt=""><i class="w3-serif w3-text-black" style="letter-spacing: 2px;">codecayoun</i>
+  </div>
+
+</div>
+</div>
+
+
+<!---footer-->
+
+<div class="container-fluid bg-dark">
+  <div class="w3-row-padding w3-padding-32">
+    <div class="w3-col m3">
+      <h2 class="w3-serif w3-center w3-medium text-success">
+        Environment 
+      </h2>
+      <h6 class="w3-serif w3-center w3-small text-white text-capitalize">we created possibilities to connect to the world</h6>
+      <h6 class="w3-serif w3-center w3-small text-white text-capitalize">be bold for the next things</h6>
+    </div>
+
+
+    <div class="w3-col m3 w3-center">
+      <h1 class="text-success w3-serif  w3-medium">Explore</h1>
+      <a href="" class="nav-item nav-link w3-serif text-white w3-small">Home</a>
+      <a href="" class="nav-item nav-link w3-serif  text-white w3-small">About</a>
+      <a href="" class="nav-item nav-link w3-serif  text-white w3-small ">Contact</a>
+      <a href="" class="nav-item nav-link  w3-serif text-white w3-small">Menu</a>
+    </div>
+
+    <div class="w3-col m3 w3-center">
+        <h4 class="text-success w3-serif  w3-medium">Visit</h4>
+        <h6 class="w3-serif w3-center w3-small text-white text-capitalize">visit california city near the coffe cafe for more information
+          invite USA 932424
+        </h6>
+        <h2 class="text-success w3-serif  w3-medium">new business</h2>
+        <h6 class="w3-serif w3-center w3-small text-white text-capitalize">engage on sara123@gmail.com</h6>
+        <h6 class="w3-serif w3-center w3-small text-white text-capitalize">89780032497</h6>
+    </div>
+
+    <div class="w3-col m3 w3-center">
+<h1 class="text-success w3-serif  w3-medium">follow us on</h1>
+<a href="" class="w3-serif w3-center w3-small text-white text-capitalize"><i class="fa fa-whatsapp">whatsapp</i></a><br>
+<a href="" class="w3-serif w3-center w3-small text-white text-capitalize"><i class="fa fa-instagram">instagram</i></a><br>
+<a href="" class="w3-serif w3-center w3-small text-white text-capitalize"><i class="fa fa-youtube-square">youtube</i></a><br>
+
+<a href="" class="w3-serif w3-center w3-small text-white text-capitalize"><i class="fa fa-twitter-square">twitter</i></a><br>
+
+
+
+
+    </div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m12 w3-center">
+         <h2 class="text-success w3-serif  w3-medium">    @don't do copright in 2023</h2>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
