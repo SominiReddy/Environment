@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm w3-serif w3-small w3-top"  style="background:rgb(205, 243, 205,0.9);color:indigo">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img width="40px" height="40px" class="w3-circle w3-hide-small w3-animate-opacity w3-hover-opacity" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL79ZsGiIP-s31rg48jMgo8cBsDJTRPpCPngrdatw&s" alt=""></a> 
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile" href="environment.html"><i class="fa fa-home"></i> HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile" href="#"><i class="fa fa-user"></i> ABOUT</a>
+              </li>
+             <!---- <li class="nav-item">
+                <a class="nav-link w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile" href="#"><i class="fa fa-address-book"></i> CONTACT</a>
+              </li>  -->
+              <li class="nav-item dropdown">
+                <a class="nav-link  w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><i class="fa fa-address-book"></i> POLLUTIONS</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="air.html">Pollution</a></li>
+                  <li><a class="dropdown-item" href="sign.html">SignIn</a></li>
+                  <li><a class="dropdown-item" href="login.html">LogIn</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link w3-text-black w3-hover-text-blue-gray w3-padding w3-mobile" href="#"><i class="fa fa-th"></i> FOOTER</a>
+              </li>    
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <div class="input-group w3-serif w3-small">
+                    <input type="text" class="form-control w3-hover-border-amber" placeholder="Your Email">
+                    <span class="input-group-text w3-hover-text-gray" style="background-color: rgb(205, 243, 205,0.9);"><i class="fa fa-search"></i></span>
+                  </div>
+                </form>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <center>
+        <div id="carouselExampleIndicators" class="carousel slide container" style="margin-top:80px" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img  src="https://media.istockphoto.com/id/935746242/photo/mata-atlantica-atlantic-forest-in-brazil.jpg?s=612x612&w=0&k=20&c=NqE6m2Q8J2w6M7x7Pi8VxnMzLzq-HJQvCt5EMuvMU5o=" class="w3-hover-opacity w-100 w-block w3-round-large w3-border-dark-gray"></div>
+            
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+              <div class="carousel-item">
+              <img src="https://files.worldwildlife.org/wwfcmsprod/images/Squirrel_monkey_Amap_Brazil/story_full_width/3v225yqf9s_Amazon_Species_Revised_8.27.2012_HI_114347.jpg" class="w3-hover-opacity w-100 w-block  w3-round-large w3-border-dark-gray"> 
+             
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+             <div class="carousel-item">
+              <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1622577599/Ecosystems-of-the-Amazon-Rainforest/Ecosystems-of-the-Amazon-Rainforest-1120x732.jpg" class="w3-hover-opacity w-100 w-block  w3-round-large w3-border-blue-grey"> 
+            
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+           
+            </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </center>
+
+<!--craeting the important about the forst-->
+<div class="container-fluid">
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-half mt-4">
+      <h6 class="w3-serif " style="letter-spacing:2px;color:green">WHERE WE ARE</h6>
+      <h3 class="w3-serif " style="letter-spacing:2px;color:BLACK">WHY THE DIFORESTATION?
+      </h3>
+    </div>
+    <div class="w3-half w3-padding " style="letter-spacing:px;color:BLACK;background:rgb(215, 223, 226,0.3)">
+      <h6 class="w3-serif w3-center " style="letter-spacing:px;color:BLACK;color:green">The forest of the Amazon River basin is central to life on Earth</h6>
+      <h6 class="w3-serif ">It is a powerful ally in the fight against climate change.
+        It’s unique, and it is threatened. </h6>
+<a href="" class="nav-iterm nav-link mt-3 text-success" style="letter-spacing:2px;text-decoration:underline" >ReadMore</a>
+    </div>
+  </div>
+</div>
+
+        <!--making the  report-->
+<div class="container-fluid mt-3">
+    <div class="w3-row">
+        <div class="w3-half">
+            <img  src="https://www.amazoniabr.org/wp-content/uploads/2022/03/numeri2.jpg" alt="" class="w3-hover-opacity w-100 w-block  w3-round-large w3-border-blue-grey"> 
+            
+        </div>
+        <div class="w3-half">
+        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtJ1blEjox55aIh1Noqlbw85E1OUfXfQXoOQ&usqp=CAU" alt="" class="w3-hover-opacity w-100 w-block  w3-round-large w3-border-blue-grey"> 
+    <h4 class="w3-serif text-success w3-center w3-padding text-capitalize">having the forest rarings in all over the world</h4>     
+<h5 class="w3-center text-capitalize" style="font-family:georgia">5.8
+    million
+    km2 <br>
+    The largest rainforest in the world</h5>  
+</div>
+    </div>
+</div>
+
+
+<!--creating deforestation for the number-->
+<div class="container-fluid">
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-half mt-3">
+      <h6 class="w3-serif  " style="letter-spacing:2px;color:BLACK;color:green">
+        IN THE WORLD, THIS YEAR
+      </h6>
+      <h3 class="w3-serif  text-capitalize" style="letter-spacing:2px;color:BLACK;color:black">hectares of forests cut or burned globally</h3>
+    <h6 class="w3-serif  " >Data processed by <i class="text-success"> The World Counts</i></h6>
+    </div>
+    <div class="w3-half w3-center w3-round-large mt-5" style="background:rgb(176, 224, 176);border:2px solid green">
+      <h4 class="p-3" style="font-family:georgia">798568068956.8097</h4>
+    </div>
+  </div>
+</div>
+
+<!--creating the forestation-->
+<div class="container-fluid">
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-half mt-4 p-3" style="background:rgb(203, 243, 203)">
+   <h6 class="w3-serif text-success mt-4">FACTS</h6>
+   <h4 class="w3-serif">GOOD NEWS</h4>
+
+   <h6 class="w3-serif w3-medium mt-3">Half of the planet’s rainforests have already disappeared. The Amazon remains the largest on the planet. </h6>
+
+  <h6 class="w3-serif w3-medium mt-3">  The good news is that 80% of it is still standing, making our challenge possible.</h6>
+ <button class="btn btn-outline-success mt-4 mb-4 p-2 w3-round-large w3-small">READ MORE</button>   
+</div>
+<div class="w3-half">
+  <img width="100%" height="auto" src="https://www.amazoniabr.org/wp-content/uploads/2022/11/MappaEng-768x565.jpg" alt="">
+</div>
+  </div>
+</div>
+
+<!--creating the -->
+
+<div class="container-fluid">
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third">
+  <h6 class="w3-serif text-success" style="letter-spacing:1px" >ABOUT US</h6>
+  <h3 class="w3-serif" style="letter-spacing:1px">20 YEARS IN THE FIELD</h3>
+<div class="w3-row w3-padding" style="background:rgb(203, 243, 203)" id="king">
+  <div class="w3-col m12" >
+<h6 class="w3-small text-success"> Our commitment is the long-term protection of the Amazon, its forest and its diversity</h6>
+<h6 class="w3-serif w3-medium mt-3 ">Half of the planet’s rainforests have already disappeared. . </h6>
+<button class="btn btn-outline-success mt-4 mb-4 p-2 w3-round-large w3-small">READ MORE</button>   
+
+</div>
+</div>
+  </div>
+  <div class="w3-twothird">
+   <img width="100%"  class="w3-round-large w3-border w3-border-green"   height="auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJa_O7HY8k8C_Cm_hx33tvoE3zLIFbLnlU8g&usqp=CAU" alt="">
+  </div>
+  </div>
+</div>
+
+<div class="w3-row">
+  <div class="w3-col m12 w3-center">
+<h6 class="w3-serif text-success">COMMON GOALS</h6>
+<h3 class="w3-serif">WE CHANGE THE WORLD, WITH SMALL ACTIONS</h3>
+<h6 class="w3-serif text-secondary">Our interventions follow the path indicated by the UN Sustainable Development Goals. We participate in the global challenge for a fairer world, a healthier planet and a less uncertain future.</h6>
+<button class="btn btn-outline-success mt-4 mb-4 p-2 w3-round-large w3-small">SUPORT OUR PRODUCTS</button>   
+  
+</div>
+</div>
+
+<div class="container ">
+<div class="w3-row-padding  w3-round-large p-4" style="background:rgb(203, 243, 203)">
+  <div class="w3-col m10"  >
+    <h6 class="w3-serif text-success">WHAT WE CAN DO TOGETHER</h6>
+     <h4 class="w3-serif"> it's TIME TO TAKE ACTION. AND WE OFFER YOU THE OPPORTUNITY TO DO IT</h4>
+     <h6 class="w3-small w3-serif"> We are the opportunity you were looking for. Join us to contribute to the battle in defence of the Amazon and its peoples, counter the climate crisis, guarantee the health of our planet and offer humanity a future.</h6>
+
+    </div>
+    <div class="w3-col m2">
+      <img width="100%" class="w3-round-large w3-border w3-border-green p-2" height="auto" src="https://www.amazoniabr.org/wp-content/uploads/2022/03/Barry-Cawston-SC.png" alt="">
+    </div>
+</div>
+</div>
+
+<!--creating deforestation-->
+<div class="container">
+  <h1 class="w3-serif w3-center text-success" style="letter-spacing:2px">DEFORESTATION</h1>
+  <div class="w3-row-padding w3-padding">
+    <div class="w3-half">
+      <h6 class="w3-serif"><strong style="font-family:bold;font-weight:bold;font-size:2em;color:green">Deforestation</strong> is when humans remove or thin forests for lumber or to use the land where the trees stood for crops, grazing, extraction (mining, oil, or gas), or development as the population increases and people migrate.</h6>
+<h6 class="w3-serif">Deforestation can involve conversion of forest land to farms, ranches, or urban use. The most concentrated deforestation occurs in tropical rainforests. About ...</h6>
+    </div>
+    <div class="w3-half">
+      <img class="img-fluid w3-round-large w3-border w3-border-green" width="100%" height="auto" src="https://i.pinimg.com/564x/80/69/8f/80698fc743708866150312d5d0742716.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<!---deforestation list in now a days-->
+<div class="container w3-center">
+  <h1 class="text-success w3-serif w3-large">DEFORESTATION LIST</h1>
+  <table class="table table-hover w3-serif w3-medium">
+    <thead>
+      <tr>
+        <th>CAUSE</th>
+        <th>	Part of emerging diseases caused by it (%)</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Land-use change</td>
+        <td>31%</td>
+       
+      </tr>
+      <tr>
+        <td>Agricultural industry changes</td>
+        <td>15%</td>
+       
+      </tr>
+      <tr>
+        <td>Medical industry changes</td>
+        <td>30%</td>
+       
+      </tr>
+      <tr>
+        <td>War and Famine</td>
+        <td>30%</td>
+       
+      </tr>
+      <tr>
+        <td>Climate and Weather</td>
+        <td>30%</td>
+       
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!---creating the deforestation graph-->
+<div class="container">
+  <h5 class="w3-center w3-serif text-success">DEFORESTATION GRAPH</h5>
+  <div class="w3-row-padding w3-padding">
+    <div class="w3-half">
+      <h6 class="w3-serif ">According to the United Nations Food and Agriculture Organization, deforestation has decreased from 62,000 square miles to 38,600 square miles ...
+        According to the United Nations Food and Agriculture Organization, deforestation has decreased from 62,000 square miles to 38,600 square miles ...
+         </h6>
+    </div>
+    <div class="w3-half">
+      <img width="100%" height="auto" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2022/08/10163518/DETER-vs-PRODES.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="container ">
+  <h3 class="w3-serif text-success text-center">  Causes of Deforestation</h3>
+  <h4 class="w3-serif text-success text-center">What are the Human Activities that Cause Deforestation?</h4>
+  <p class="w3-serif">The primary anthropogenic activities (human activities) that contribute to deforestation include:</p>
+<ul class="text-left">
+  <li><p class="w3-serif">Agriculture – small-scale and large-scale farming</p></li>
+ <li><p class="w3-serif">Logging – cutting of trees for use as raw material</p></li>
+ <li><p class="w3-serif">Mining and urban expansion – clearing of forest area for the construction of infrastructure.</p></li>
+</ul>
+<p class="w3-serif">According to the secretariat of the UNFCCC (United Nations Framework Convention on Climate Change), agriculture is the root cause of 80% of deforestation. Logging accounts for another 14% and the cutting of trees for use as wood fuel account for 5%. A pie-chart detailing the driving cause of the deforestation of tropical forests between the years 2000 and 2005 is provided below.</p>
+</div>
+
+<div class="container">
+  <h3 class="w3-serif text-success text-center">CAUSES OF TROPICAL DEFORESTATION</h3>
+  <div class="row">
+    <div class="col-md-5">
+  <img class="w3-border w3-border-green w3-round-large" width="100%" height="auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHQXDk63tE4AynG_MAOBheVZF4W7uM3093hQ&usqp=CAU" alt="">
+</div>
+<div class="col-md-7">
+  <p class="w3-serif">Slash-and-burn agriculture is one of the most destructive forms of agriculture that results in large-scale deforestation. It involves the burning of a large area of forest land and the subsequent plantation of crops in the same soil (which is now fertilized by the ashes of the burnt trees). Despite the practice being abandoned by several developed countries, it is still followed in some Southeast Asian countries.
+
+  </p>
+</div>
+</div>
+</div>
+
+
+<!--creating the deforestation gallery-->
+<div class="container-fluid text-center w3-card w3-card-4 ">
+  <h3 class="w3-center text-success w3-serif p-2">IMAGE GALLERY</h3>
+  <div class="w3-row-padding w3-padding ">
+     <div class="w3-col mt-2 m3">
+    <img class="img-fluid w3-round-large" width="100%" height="auto" src="https://i.pinimg.com/236x/59/f5/8c/59f58cb4b65372369fdc55354986fd75.jpg" alt="">
+    
+    <div class="w3-row">
+      <div class="w3-col m12 mt-2">
+        <img class="img-fluid w3-round-large" width="100%" height="auto" src="https://i.pinimg.com/236x/93/87/10/9387106ca0efaf3c45924fca8b9c32a0.jpg" alt="">
+   
+      </div>
+    </div>
+  </div>
+     <div class="w3-col m3 mt-2">
+      <img class="img-fluid w3-round-large" width="100%" height="auto" src="https://i.pinimg.com/236x/6e/0c/0e/6e0c0e46343cfe54ae56b68cf4821f2f.jpg" alt="">
+    <div class="w3-row">
+      <div class="w3-col m12 mt-2">
+<img class="img-fluid w3-round-large" width="100%" height="auto"  src="https://i.pinimg.com/236x/0d/5f/d2/0d5fd2c14e76fac884cce83d1e3f7c65.jpg" alt="">
+      </div>
+    </div>   
+    
+    </div>
+
+       <div class="w3-col m3 mt-2">
+        <img class="img-fluid w3-round-large" width="100%" height="auto" src="https://i.pinimg.com/236x/dd/8f/67/dd8f67bbc6489c779843335d5214ed85.jpg" alt="">
+         
+      <div class="w3-row">
+        <div class="w3-col m12 mt-2">
+          <img class="img-fluid w3-round-large" width="100%" height="auto" src="https://i.pinimg.com/236x/7c/a4/6f/7ca46f5915b1963f9b98b4d04667eab7.jpg" alt="">
+     
+        </div>
+      </div>
+      </div>
+
+         <div class="w3-col m3 mt-2">
+          <img class="img-fluid w3-round-large" width="100%" height="auto" src="https://i.pinimg.com/236x/96/41/24/96412499e9362a1e234892cbdbb81dfa.jpg" alt="">
+      <div class="w3-row">
+        <div class="w3-col m12 mt-2">
+          <img class="img-fluid w3-round-large" width="100%" height="auto" src="https://i.pinimg.com/236x/6b/39/23/6b3923a1f857c9f6acd721442998b47c.jpg" alt="">
+    
+        </div>
+      </div>
+        </div>
+  </div>
+</div>
+
+
+<!---creating the pollutions-->
+<div class="container  ">
+  <h3 class="w3-serif w3-center text-success">POLLUTIONS</h3>
+  <ul>
+    <li class="w3-serif">AIR POLLUTION</li>
+    <li  class="w3-serif">LAND POLLUTION</li>
+    <li  class="w3-serif">WATER POLLUTION</li>
+  </ul>
+</div>
+
+<!---air pollution-->
+
+<div class="container-fluid mt-3">
+  <h3 class="w3-serif text-success text-center">AIR POLLUTION</h3>
+  <div class="w3-row-padding w3-padding">
+    <div class="w3-twothird">
+      <p class="w3-serif mt-2">Pollutants of major public health concern include particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide. Outdoor and indoor air Pollutants of major public health concern include particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide. Outdoor and indoor air 
+        Air pollution refers to the release of pollutants into the air—pollutants which are detrimental to human health and the planet as a whole.Air pollution refers to the release of pollutants into the air—pollutants which are detrimental to human health and the planet as a whole.Air pollution refers to the release of pollutants into the air—pollutants and the planet as a whole.
+      </p>
+      <a href="air.html" style="text-decoration:underline" class="nav-item nav-link text-success">READ MORE</a>
+    </div>
+    <div class="w3-third">
+      <img  class="img-fluid w3-round-large  w3-border w3-border-green" width="100%" height="auto"  src="https://i.pinimg.com/564x/08/67/a3/0867a39d60722db5c732f52a47d88cd1.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+
+<!---creating land pollution-->
+
+<div class="container-fluid mt-3">
+  <h3 class="w3-serif text-success text-center">LAND POLLUTION</h3>
+  <div class="w3-row-padding w3-padding">
+
+    <div class="w3-third">
+      <img  class="img-fluid w3-round-large  w3-border w3-border-green" width="100%" height="auto"  src="https://i.pinimg.com/564x/33/12/55/331255a04ec41330bae1d0d1c2864507.jpg" alt="">
+    </div>
+    <div class="w3-twothird">
+      <p class="w3-serif mt-2">Pollutants of major public health concern include particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide. Outdoor and indoor air Pollutants of major public health concern include particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide. Outdoor and indoor air 
+        Air pollution refers to the release of pollutants into the air—pollutants which are detrimental to human health and the planet as a whole.Air pollution refers to the release of pollutants into the air—pollutants which are detrimental to human health and the planet as a whole.Air pollution refers to the release of pollutants into the air—pollutants and the planet as a whole.
+      </p>
+      <a href="air.html" style="text-decoration:underline" class="nav-item nav-link text-success">READ MORE</a>
+    </div>
+    
+  </div>
+</div>
+
+
+<!--creating water polltion-->
+<div class="container-fluid mt-5">
+  <h3 class="w3-serif text-success text-center">WATER POLLUTION</h3>
+  <div class="w3-row-padding w3-padding">
+
+   
+    <div class="w3-twothird">
+      <p class="w3-serif mt-2">Pollutants of major public health concern include particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide. Outdoor and indoor air Pollutants of major public health concern include particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide. Outdoor and indoor air 
+        Air pollution refers to the release of pollutants into the air—pollutants which are detrimental to human health and the planet as a whole.Air pollution refers to the release of pollutants into the air—pollutants which are detrimental to human health and the planet as a whole.Air pollution refers to the release of pollutants into the air—pollutants and the planet as a whole.
+      </p>
+      <a href="air.html" style="text-decoration:underline" class="nav-item nav-link text-success">READ MORE</a>
+    </div>
+    
+    <div class="w3-third">
+      <img  class=" mt-3 img-fluid w3-round-large w3-border w3-border-green" width="100%" height="auto"  src="https://i.pinimg.com/236x/3f/81/e6/3f81e6d868f21c8f7efd657ac08208be.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--creewting the footer-->
+
+
+<div class="container-fluid bg-dark">
+  <div class="w3-row-padding w3-padding-32">
+    <div class="w3-col m3">
+      <h2 class="w3-serif w3-center w3-medium text-success">
+        Environment 
+      </h2>
+      <h6 class="w3-serif w3-center w3-small text-white text-capitalize">we created possibilities to connect to the world</h6>
+      <h6 class="w3-serif w3-center w3-small text-white text-capitalize">be bold for the next things</h6>
+    </div>
+
+
+    <div class="w3-col m3 w3-center">
+      <h1 class="text-success w3-serif  w3-medium">Explore</h1>
+      <a href="" class="nav-item nav-link w3-serif text-white w3-small">Home</a>
+      <a href="" class="nav-item nav-link w3-serif  text-white w3-small">About</a>
+      <a href="" class="nav-item nav-link w3-serif  text-white w3-small ">Contact</a>
+      <a href="" class="nav-item nav-link  w3-serif text-white w3-small">Menu</a>
+    </div>
+
+    <div class="w3-col m3 w3-center">
+        <h4 class="text-success w3-serif  w3-medium">Visit</h4>
+        <h6 class="w3-serif w3-center w3-small text-white text-capitalize">visit california city near the coffe cafe for more information
+          invite USA 932424
+        </h6>
+        <h2 class="text-success w3-serif  w3-medium">new business</h2>
+        <h6 class="w3-serif w3-center w3-small text-white text-capitalize">engage on sara123@gmail.com</h6>
+        <h6 class="w3-serif w3-center w3-small text-white text-capitalize">89780032497</h6>
+    </div>
+
+    <div class="w3-col m3 w3-center">
+<h1 class="text-success w3-serif  w3-medium">follow us on</h1>
+<a href="" class="w3-serif w3-center w3-small text-white text-capitalize"><i class="fa fa-whatsapp">whatsapp</i></a><br>
+<a href="" class="w3-serif w3-center w3-small text-white text-capitalize"><i class="fa fa-instagram">instagram</i></a><br>
+<a href="" class="w3-serif w3-center w3-small text-white text-capitalize"><i class="fa fa-youtube-square">youtube</i></a><br>
+
+<a href="" class="w3-serif w3-center w3-small text-white text-capitalize"><i class="fa fa-twitter-square">twitter</i></a><br>
+
+
+
+
+    </div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col m12 w3-center">
+         <h2 class="text-success w3-serif  w3-medium">    @don't do copright in 2023</h2>
+    </div>
+  </div>
+</div>
+</body>
+</html>
